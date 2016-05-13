@@ -1,0 +1,32 @@
+{
+  "name": "mochaexample",
+  "version": "1.0.0",
+  "description": "Test Basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R nyan test/test.js",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouryar/MochaExample.git"
+  },
+  "keywords": [
+    "test",
+    "mocha"
+  ],
+  "author": "MouryaKumar Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouryar/MochaExample/issues"
+  },
+  "homepage": "https://github.com/mouryar/MochaExample#readme",
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0"
+  }
+}
